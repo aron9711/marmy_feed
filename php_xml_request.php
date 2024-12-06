@@ -15,6 +15,7 @@ curl_setopt_array($curl, array(
     "type": "xml"
 }',
   CURLOPT_HTTPHEADER => array(
+    'Content-Type: application/json',
     'Authorization: Bearer TOKEN',
   ),
 ));
